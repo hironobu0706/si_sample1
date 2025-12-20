@@ -1,0 +1,49 @@
+
+body {
+  background-color: gray;
+  margin: auto;
+  width: 1200px;
+  height: 1000px;
+}
+
+.container {
+  background-color: white;
+  min-height: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex; /* ボタンを横並びにする */
+  gap: 50px; /* ボタンの間に50pxの間隔をあける */
+  justify-content: center; /* ボタンを中央に配置する */
+  margin-top: 20px;
+}
+
+.nextButton {
+  width:200px;
+  height:80px;
+}
+
+.backButton {
+  background-color: gray!important;
+  width:200px;
+  height:80px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.confirmTable {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 60%;
+  text-align: left;
+}
+
+.confirmTable tr td{
+  border-bottom: 1px solid #000;
+}
